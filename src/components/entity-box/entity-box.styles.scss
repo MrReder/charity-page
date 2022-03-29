@@ -1,0 +1,24 @@
+.entity-box{
+    box-sizing: content-box;
+    outline: solid 2px rgb(54, 59, 93);
+    padding: 3px 10px;
+    border-bottom-left-radius: 5%;
+    border-top-left-radius: 5%;
+    background: rgb(54, 59, 93);
+    color: rgb(251 248 248);
+    letter-spacing: 0.1mm;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.entity-box:last-child{
+    color: rgb(0, 0, 0);
+    background: rgb(251 248 248);
+    border-bottom-right-radius: 5%;
+    border-top-right-radius: 5%;
+}
+
+.entity-box:hover:last-child{
+    background: rgb(54, 59, 93);
+    color: rgb(251 248 248);
+}

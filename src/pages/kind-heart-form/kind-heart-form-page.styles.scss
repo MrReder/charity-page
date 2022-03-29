@@ -1,0 +1,76 @@
+.entity-box-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.inputs-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.left-inputs-side{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 50px;
+}
+
+.right-inputs-side{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 50px;
+}
+
+.full-name-wrapper{
+    display: flex;
+    flex-direction: row;
+}
+
+.company-info{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.company-name{
+    width: 312px;
+}
+
+.adding-logo{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.add-logo{
+    font-size: 10px;
+    color: #4d92e3;
+    margin-left: 10px;
+    margin-bottom: 23px;
+    cursor: pointer;
+}
+
+.city-state-wrapper{
+    display: flex;
+    flex: row;
+}
+
+.secondary-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 22px;
+    color: rgb(74, 79, 109);
+    margin-bottom: -250px;
+}
+
+.assistance-boxes-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 150px;
+}

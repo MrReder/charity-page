@@ -1,0 +1,24 @@
+.input-wrapper{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.input-title{
+    color: rgb(156, 162, 170);
+    font-size: 14px;
+    margin-bottom: 3px;
+    letter-spacing: 0.1mm;
+}
+
+input{
+    height: 25px;
+    background: rgb(243, 247, 250);
+    border: none;  
+}
+
+.short-input{
+    width: 87%;
+}
+
+
